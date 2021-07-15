@@ -7,6 +7,8 @@ import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.view.animation.AlphaAnimation;
+import android.view.animation.Animation;
 import android.view.animation.LinearInterpolator;
 import android.widget.LinearLayout;
 
@@ -41,6 +43,7 @@ public class PlaceholderFragment extends Fragment {
         MyListAdapter mAdapter = new MyListAdapter();
         mAdapter.setList();
         animator2.setAdapter(mAdapter);
+        animator1.setVisibility(View.VISIBLE);
         animator2.setVisibility(View.INVISIBLE);
         return myView;
     }
@@ -52,23 +55,54 @@ public class PlaceholderFragment extends Fragment {
         getView().postDelayed(new Runnable() {
             @Override
             public void run() {
-                ObjectAnimator alphaAnimator1 = ObjectAnimator.ofFloat(animator1,
-                        "alpha", 1.0f, 0.0f);
+                AlphaAnimation alphaAnimator1 = new AlphaAnimation(1.0f, 0.0f);
                 alphaAnimator1.setInterpolator(new LinearInterpolator());
                 alphaAnimator1.setDuration(1000);
                 alphaAnimator1.setRepeatCount(ObjectAnimator.RESTART - 1);
-                ObjectAnimator alphaAnimator2 = ObjectAnimator.ofFloat(animator2,
-                        "alpha", 0.0f, 1.0f);
+                AlphaAnimation alphaAnimator2 = new AlphaAnimation(0.0f, 1.0f);
                 alphaAnimator2.setInterpolator(new LinearInterpolator());
                 alphaAnimator2.setDuration(1000);
                 alphaAnimator2.setRepeatCount(ObjectAnimator.RESTART - 1);
 
                 // TODO ex3-4：实现动画，将 lottie 控件淡出，列表数据淡入
-                animator2.setVisibility(View.VISIBLE);
-                AnimatorSet animatorSet = new AnimatorSet();
-                animatorSet.playTogether(alphaAnimator1, alphaAnimator2);
-                animatorSet.start();
+                animator1.startAnimation(alphaAnimator1);
+                animator2.startAnimation(alphaAnimator2);
+                alphaAnimator1.setAnimationListener(new Animation.AnimationListener() {
+                    @Override
+                    public void onAnimationStart(Animation animation) {
+
+                    }
+
+                    @Override
+                    public void onAnimationEnd(Animation animation) {
+                        animator1.setVisibility(View.INVISIBLE);
+                    }
+
+                    @Override
+                    public void onAnimationRepeat(Animation animation) {
+
+                    }
+                });
+                alphaAnimator2.setAnimationListener(new Animation.AnimationListener() {
+                    @Override
+                    public void onAnimationStart(Animation animation) {
+
+                    }
+
+                    @Override
+                    public void onAnimationEnd(Animation animation) {
+                        animator2.setVisibility(View.VISIBLE);
+                    }
+
+                    @Override
+                    public void onAnimationRepeat(Animation animation) {
+
+                    }
+                });
+
+
             }
         }, 5000);
     }
+
 }
