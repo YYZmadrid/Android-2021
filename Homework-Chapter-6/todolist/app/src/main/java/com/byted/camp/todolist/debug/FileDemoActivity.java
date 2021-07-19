@@ -21,7 +21,6 @@ public class FileDemoActivity extends AppCompatActivity {
     // TODO: 2021/7/19 文件的去写操作
 
     private String mFileName = null;
-
     private EditText editText;
     private TextView tvText;
 
@@ -52,11 +51,10 @@ public class FileDemoActivity extends AppCompatActivity {
     }
 
     private void saveToFile(final String content) {
-        // hello world
+      
         new Thread(new Runnable() {
             @Override
             public void run() {
-                // 创建文件
                 File file = new File(mFileName);
                 if (!file.exists()) {
                     try {
@@ -68,7 +66,6 @@ public class FileDemoActivity extends AppCompatActivity {
                         e.printStackTrace();
                     }
                 }
-                //
                 FileOutputStream outputStream = null;
                 try {
                     outputStream = new FileOutputStream(file);
