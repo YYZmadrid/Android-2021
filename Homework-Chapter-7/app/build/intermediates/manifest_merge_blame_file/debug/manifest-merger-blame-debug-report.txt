@@ -6,62 +6,62 @@
 6
 7    <uses-sdk
 8        android:minSdkVersion="24"
-8-->D:\Users\yyz\Desktop\Android\android-campus-2021\chapter-7\MediaWorksDemo\app\src\main\AndroidManifest.xml
+8-->D:\Users\yyz\Desktop\Android\upload\Homework-Chapter-7\app\src\main\AndroidManifest.xml
 9        android:targetSdkVersion="30" />
-9-->D:\Users\yyz\Desktop\Android\android-campus-2021\chapter-7\MediaWorksDemo\app\src\main\AndroidManifest.xml
+9-->D:\Users\yyz\Desktop\Android\upload\Homework-Chapter-7\app\src\main\AndroidManifest.xml
 10
 11    <permission android:name="android.permission.CHANGE_CONFIGURATION" />
-11-->D:\Users\yyz\Desktop\Android\android-campus-2021\chapter-7\MediaWorksDemo\app\src\main\AndroidManifest.xml:5:5-73
-11-->D:\Users\yyz\Desktop\Android\android-campus-2021\chapter-7\MediaWorksDemo\app\src\main\AndroidManifest.xml:5:17-71
+11-->D:\Users\yyz\Desktop\Android\upload\Homework-Chapter-7\app\src\main\AndroidManifest.xml:5:5-73
+11-->D:\Users\yyz\Desktop\Android\upload\Homework-Chapter-7\app\src\main\AndroidManifest.xml:5:17-71
 12
 13    <uses-permission android:name="android.permission.INTERNET" />
-13-->D:\Users\yyz\Desktop\Android\android-campus-2021\chapter-7\MediaWorksDemo\app\src\main\AndroidManifest.xml:6:5-67
-13-->D:\Users\yyz\Desktop\Android\android-campus-2021\chapter-7\MediaWorksDemo\app\src\main\AndroidManifest.xml:6:22-64
+13-->D:\Users\yyz\Desktop\Android\upload\Homework-Chapter-7\app\src\main\AndroidManifest.xml:6:5-67
+13-->D:\Users\yyz\Desktop\Android\upload\Homework-Chapter-7\app\src\main\AndroidManifest.xml:6:22-64
 14
 15    <application
-15-->D:\Users\yyz\Desktop\Android\android-campus-2021\chapter-7\MediaWorksDemo\app\src\main\AndroidManifest.xml:7:5-26:19
+15-->D:\Users\yyz\Desktop\Android\upload\Homework-Chapter-7\app\src\main\AndroidManifest.xml:7:5-26:19
 16        android:allowBackup="true"
-16-->D:\Users\yyz\Desktop\Android\android-campus-2021\chapter-7\MediaWorksDemo\app\src\main\AndroidManifest.xml:8:9-35
+16-->D:\Users\yyz\Desktop\Android\upload\Homework-Chapter-7\app\src\main\AndroidManifest.xml:8:9-35
 17        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
 17-->[androidx.core:core:1.1.0] C:\Users\yyz\.gradle\caches\transforms-2\files-2.1\e601daed4ba62929db8b322b2974c8f8\core-1.1.0\AndroidManifest.xml:24:18-86
 18        android:debuggable="true"
 19        android:extractNativeLibs="false"
 20        android:icon="@mipmap/ic_launcher"
-20-->D:\Users\yyz\Desktop\Android\android-campus-2021\chapter-7\MediaWorksDemo\app\src\main\AndroidManifest.xml:9:9-43
+20-->D:\Users\yyz\Desktop\Android\upload\Homework-Chapter-7\app\src\main\AndroidManifest.xml:9:9-43
 21        android:label="@string/app_name"
-21-->D:\Users\yyz\Desktop\Android\android-campus-2021\chapter-7\MediaWorksDemo\app\src\main\AndroidManifest.xml:10:9-41
+21-->D:\Users\yyz\Desktop\Android\upload\Homework-Chapter-7\app\src\main\AndroidManifest.xml:10:9-41
 22        android:roundIcon="@mipmap/ic_launcher_round"
-22-->D:\Users\yyz\Desktop\Android\android-campus-2021\chapter-7\MediaWorksDemo\app\src\main\AndroidManifest.xml:11:9-54
+22-->D:\Users\yyz\Desktop\Android\upload\Homework-Chapter-7\app\src\main\AndroidManifest.xml:11:9-54
 23        android:supportsRtl="true"
-23-->D:\Users\yyz\Desktop\Android\android-campus-2021\chapter-7\MediaWorksDemo\app\src\main\AndroidManifest.xml:12:9-35
+23-->D:\Users\yyz\Desktop\Android\upload\Homework-Chapter-7\app\src\main\AndroidManifest.xml:12:9-35
 24        android:testOnly="true"
 25        android:theme="@style/Theme.MediaWorksDemo" >
-25-->D:\Users\yyz\Desktop\Android\android-campus-2021\chapter-7\MediaWorksDemo\app\src\main\AndroidManifest.xml:13:9-52
+25-->D:\Users\yyz\Desktop\Android\upload\Homework-Chapter-7\app\src\main\AndroidManifest.xml:13:9-52
 26        <activity android:name="com.example.mediaworksdemo.MainActivity" >
-26-->D:\Users\yyz\Desktop\Android\android-campus-2021\chapter-7\MediaWorksDemo\app\src\main\AndroidManifest.xml:14:9-20:20
-26-->D:\Users\yyz\Desktop\Android\android-campus-2021\chapter-7\MediaWorksDemo\app\src\main\AndroidManifest.xml:14:19-47
+26-->D:\Users\yyz\Desktop\Android\upload\Homework-Chapter-7\app\src\main\AndroidManifest.xml:14:9-20:20
+26-->D:\Users\yyz\Desktop\Android\upload\Homework-Chapter-7\app\src\main\AndroidManifest.xml:14:19-47
 27            <intent-filter>
-27-->D:\Users\yyz\Desktop\Android\android-campus-2021\chapter-7\MediaWorksDemo\app\src\main\AndroidManifest.xml:15:13-19:29
+27-->D:\Users\yyz\Desktop\Android\upload\Homework-Chapter-7\app\src\main\AndroidManifest.xml:15:13-19:29
 28                <action android:name="android.intent.action.MAIN" />
-28-->D:\Users\yyz\Desktop\Android\android-campus-2021\chapter-7\MediaWorksDemo\app\src\main\AndroidManifest.xml:16:17-69
-28-->D:\Users\yyz\Desktop\Android\android-campus-2021\chapter-7\MediaWorksDemo\app\src\main\AndroidManifest.xml:16:25-66
+28-->D:\Users\yyz\Desktop\Android\upload\Homework-Chapter-7\app\src\main\AndroidManifest.xml:16:17-69
+28-->D:\Users\yyz\Desktop\Android\upload\Homework-Chapter-7\app\src\main\AndroidManifest.xml:16:25-66
 29
 30                <category android:name="android.intent.category.LAUNCHER" />
-30-->D:\Users\yyz\Desktop\Android\android-campus-2021\chapter-7\MediaWorksDemo\app\src\main\AndroidManifest.xml:18:17-77
-30-->D:\Users\yyz\Desktop\Android\android-campus-2021\chapter-7\MediaWorksDemo\app\src\main\AndroidManifest.xml:18:27-74
+30-->D:\Users\yyz\Desktop\Android\upload\Homework-Chapter-7\app\src\main\AndroidManifest.xml:18:17-77
+30-->D:\Users\yyz\Desktop\Android\upload\Homework-Chapter-7\app\src\main\AndroidManifest.xml:18:27-74
 31            </intent-filter>
 32        </activity>
 33        <activity android:name="com.example.mediaworksdemo.PictureDetailActivity" />
-33-->D:\Users\yyz\Desktop\Android\android-campus-2021\chapter-7\MediaWorksDemo\app\src\main\AndroidManifest.xml:21:9-59
-33-->D:\Users\yyz\Desktop\Android\android-campus-2021\chapter-7\MediaWorksDemo\app\src\main\AndroidManifest.xml:21:19-56
+33-->D:\Users\yyz\Desktop\Android\upload\Homework-Chapter-7\app\src\main\AndroidManifest.xml:21:9-59
+33-->D:\Users\yyz\Desktop\Android\upload\Homework-Chapter-7\app\src\main\AndroidManifest.xml:21:19-56
 34        <activity
-34-->D:\Users\yyz\Desktop\Android\android-campus-2021\chapter-7\MediaWorksDemo\app\src\main\AndroidManifest.xml:22:9-25:50
+34-->D:\Users\yyz\Desktop\Android\upload\Homework-Chapter-7\app\src\main\AndroidManifest.xml:22:9-25:50
 35            android:name="com.example.mediaworksdemo.VideoDetailActivity"
-35-->D:\Users\yyz\Desktop\Android\android-campus-2021\chapter-7\MediaWorksDemo\app\src\main\AndroidManifest.xml:23:13-48
+35-->D:\Users\yyz\Desktop\Android\upload\Homework-Chapter-7\app\src\main\AndroidManifest.xml:23:13-48
 36            android:configChanges="orientation|screenSize"
-36-->D:\Users\yyz\Desktop\Android\android-campus-2021\chapter-7\MediaWorksDemo\app\src\main\AndroidManifest.xml:24:13-59
+36-->D:\Users\yyz\Desktop\Android\upload\Homework-Chapter-7\app\src\main\AndroidManifest.xml:24:13-59
 37            android:screenOrientation="sensor" />
-37-->D:\Users\yyz\Desktop\Android\android-campus-2021\chapter-7\MediaWorksDemo\app\src\main\AndroidManifest.xml:25:13-47
+37-->D:\Users\yyz\Desktop\Android\upload\Homework-Chapter-7\app\src\main\AndroidManifest.xml:25:13-47
 38    </application>
 39
 40</manifest>

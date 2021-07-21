@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "D:\\Users\\yyz\\Desktop\\Android\\android-campus-2021\\chapter-7\\MediaWorksDemo\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-hu\\values-hu.xml",
+            "outputFile": "D:\\Users\\yyz\\Desktop\\Android\\upload\\Homework-Chapter-7\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-hu\\values-hu.xml",
             "map": [
                 {
                     "source": "C:\\Users\\yyz\\.gradle\\caches\\transforms-2\\files-2.1\\e601daed4ba62929db8b322b2974c8f8\\core-1.1.0\\res\\values-hu\\values-hu.xml",

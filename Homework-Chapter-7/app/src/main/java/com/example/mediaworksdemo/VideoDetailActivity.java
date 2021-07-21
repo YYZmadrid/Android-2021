@@ -27,11 +27,6 @@ import java.io.IOException;
 public class VideoDetailActivity extends AppCompatActivity {
     MediaPlayer player = new MediaPlayer();
     String mockUrl1 = "https://stream7.iqilu.com/10339/upload_transcode/202002/18/20200218114723HDu3hhxqIT.mp4";
-    String mockUrl2 = "https://ugcws.video.gtimg.com/uwMROfz2r5xhIaQXGdGnCmdfJ6o3c4T7WXbX" +
-            "_dHHxZTkFh2G/h03103wznz3.p702.1.mp4?sdtfrom=v1010&guid=40c0b39c4461497ccd0d24b3f8eb90a8&vkey=153878AD294D312" +
-            "5D2538104DC24DCC0BFE3F922C3552CA709C45AAB78B42D0AC17520C260DF1A9AE37FB49EEA90748FBF4F9A5EB3C9BFAD1C8C93362887C9DFEF207EAC0CC5FF" +
-            "3F3794FC7C754871CBCA1DA4C09A91CCC0D4F2814C9EB505CF70" +
-            "C7EA0E45B8A4D702CAEB769E9E17882B8BE3C82BF413D274604BCC7BE75CEA0B74C2846CC4223E";
     android.widget.RelativeLayout.LayoutParams originalParams;
     VideoView videoView;
 
@@ -41,7 +36,7 @@ public class VideoDetailActivity extends AppCompatActivity {
         setContentView(R.layout.activity_video_detail);
         videoView = findViewById(R.id.videoView);
         originalParams = (android.widget.RelativeLayout.LayoutParams) videoView.getLayoutParams();
-        videoView.setVideoURI(Uri.parse(mockUrl2));
+        videoView.setVideoURI(Uri.parse(mockUrl1));
         MediaController MC = new MediaController(this);
 
         videoView.setMediaController(new MediaController(this));
